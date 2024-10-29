@@ -64,7 +64,7 @@ const getColumns = (data) => {
 
 
 const createWriteStream = () => {
-  const writeStream = fs.createWriteStream('BackAlleySpiritsProducts.csv');
+  const writeStream = fs.createWriteStream('products.csv');
   return writeStream;
 };
 
